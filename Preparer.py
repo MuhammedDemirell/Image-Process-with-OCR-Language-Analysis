@@ -11,15 +11,11 @@ subject3 = st.empty()
 subject4 = st.empty()
 
 nameAndSurname.markdown(
-    "<h1 style='font-size: 40px; color: #333; margin-bottom: 30px; text-align: center;'>Muhammed Demirel</h1>",
+    "<h1 style='font-size: 40px; color: #333; margin-bottom: 30px; text-align: center;'>Muhammed</h1>",
     unsafe_allow_html=True)
 time.sleep(1)
-number.markdown("<h1 style='font-size: 30px; color: #555; margin-bottom: 20px; text-align: center;'>2106001051</h1>",
+number.markdown("<h1 style='font-size: 30px; color: #555; margin-bottom: 20px; text-align: center;'>Demirel</h1>",
                 unsafe_allow_html=True)
-time.sleep(1)
-subject1.markdown(
-    "<h1 style='font-size: 30px; color: #333; margin-bottom: 20px; text-align: center;'>Görüntü İşleme Final Projesi</h1>",
-    unsafe_allow_html=True)
 time.sleep(1)
 subject2.markdown(
     "<h1 style='font-size: 25px; color: #555; margin-bottom: 20px; text-align: center;'>OpenCV ile Optik Karakter Tanıma (OCR)</h1>",
